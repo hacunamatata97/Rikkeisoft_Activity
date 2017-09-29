@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.hacunamatata.rikkeisoft_activity.activity.StudentInfoActivity"
+    >
+
+    <TextView
+        android:id="@+id/Display_Name"
+        style="@style/Container"
+        android:text="Student Info"/>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Student name: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_StudentName"
+            style="@style/TextViewCustom"
+            tools:text="Name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Home Town: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_HomeTown"
+            style="@style/TextViewCustom"
+            tools:text="Home Town"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Date of birth: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_DOB"
+            style="@style/TextViewCustom"
+            tools:text="DOB"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Gender: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_Gender"
+            style="@style/TextViewCustom"
+            tools:text="Gender"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Class: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_Class"
+            style="@style/TextViewCustom"
+            tools:text="Class"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Course: "
+            style="@style/TextViewCustom"/>
+
+        <TextView
+            android:id="@+id/Display_Course"
+            style="@style/TextViewCustom"
+            tools:text="Course"/>
+
+    </LinearLayout>
+
+</LinearLayout>

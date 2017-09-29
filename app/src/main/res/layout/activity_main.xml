@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.hacunamatata.rikkeisoft_activity.activity.MainActivity"
+    >
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            style="@style/TextViewCustom"
+            android:text="Enter student's name: "/>
+
+        <EditText
+            android:id="@+id/Text_StudentName"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        style="@style/ButtonCustom"
+        android:text="Next"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.hacunamatata.rikkeisoft_activity.activity.StudentActivity">
+
+    <TextView
+        android:id="@+id/Display_Name"
+        style="@style/Container"
+        tools:text="StudentName"/>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Hometown: "
+            style="@style/TextViewCustom"/>
+
+        <EditText
+            android:id="@+id/Text_HomeTown"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Date Of Birth: "
+            style="@style/TextViewCustom"/>
+
+        <EditText
+            android:id="@+id/Text_DOB"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Gender: "
+            style="@style/TextViewCustom"/>
+
+        <EditText
+            android:id="@+id/Text_Gender"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Class: "
+            style="@style/TextViewCustom"/>
+
+        <EditText
+            android:id="@+id/Text_Class"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Container">
+
+        <TextView
+            android:text="Course: "
+            style="@style/TextViewCustom"/>
+
+        <EditText
+            android:id="@+id/Text_Course"
+            style="@style/EditTextCustom"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishBtn"
+        style="@style/ButtonCustom"
+        android:text="Finish"/>
+
+</LinearLayout>
